@@ -40,14 +40,12 @@ int convert_hex_string_to_byte_array(const char hex_string[], int num_chars, int
 
   }
 
-  for (int i = 0; i <  byte_count; i++) {
+  // for (int i = 0; i <  byte_count; i++) {
+  //   if(byte_array[i]) 
+  //     printf("%x", byte_array[i]);
+  // }
 
-    if(byte_array[i]) 
-      printf("%x", byte_array[i]);
-  }
-
-  
-  printf("\n");
+  // printf("\n");
 
   byte_array[byte_count] = '\0';
   return byte_count;
